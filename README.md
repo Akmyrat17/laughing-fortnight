@@ -52,3 +52,9 @@ docker-compose build
 # 2. Start containers
 docker-compose up
 ```
+
+## Page
+
+Go to the link to see the prices
+
+**http://localhost:{PORT}/bitcoin**
