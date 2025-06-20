@@ -16,11 +16,5 @@ export default defineNuxtConfig({
   runtimeConfig: {
     coingeckoUrl: process.env.COINGECKO_URL,
     coingeckoHomeUrl: process.env.COINGECKO_HOME_URL,
-  },
-  // nitro: {
-  //   compatibilityDate: '2025-06-19',
-  //   externals: {
-  //     external: ['@prisma/client'],
-  //   },
-  // },
+  }
 });
