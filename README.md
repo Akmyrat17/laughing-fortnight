@@ -1,6 +1,6 @@
 # 📈 Bitcoin Tracker (Nuxt 3 + Drizzle + PostgreSQL + Docker)
 
-A modern, containerized Nuxt 3 application with a PostgreSQL backend, using Drizzle ORM for type-safe database interaction.
+A Simple, one page, containerized Nuxt 3 application with a PostgreSQL backend, using Drizzle ORM for type-safe database interaction.
 
 ## 🧰 Tech Stack
 
