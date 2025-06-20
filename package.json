@@ -1,0 +1,37 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "migrate:generate": "drizzle-kit generate",
+    "migrate:latest": "drizzle-kit migrate"
+  },
+  "dependencies": {
+    "@nuxtjs/tailwindcss": "^7.0.0-beta.0",
+    "@tailwindcss/postcss": "^4.1.10",
+    "@vuepic/vue-datepicker": "^11.0.2",
+    "apexcharts": "^4.7.0",
+    "axios": "^1.10.0",
+    "chart.js": "^4.5.0",
+    "chartjs-adapter-date-fns": "^3.0.0",
+    "dayjs": "^1.11.13",
+    "dotenv": "^16.5.0",
+    "drizzle-orm": "^0.44.2",
+    "nuxt": "^3.17.5",
+    "pg": "^8.16.2",
+    "vue": "^3.5.17",
+    "vue-chartjs": "^5.3.2",
+    "vue-router": "^4.5.1",
+    "drizzle-kit": "^0.31.1",
+    "vue3-apexcharts": "^1.8.0"
+  },
+  "devDependencies": {
+    "@types/pg": "^8.15.4",
+    "nuxt-scheduler": "^0.1.9"
+  }
+}
